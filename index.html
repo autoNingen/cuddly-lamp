@@ -2,113 +2,203 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>AESOPS FABLES are not content complete whatsoever</title>
+<title>Blog Title</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
-* {
-    box-sizing: border-box;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-    margin: 0;
-    background: #f7f7f2;
-    color: #111;
-    font-family: Georgia, "Times New Roman", serif;
-    line-height: 1.7;
+body{
+    background:#131313 url("background.png") repeat;
+    color:white;
+    font-family:"Manrope",sans-serif;
+    line-height:1.7;
+    font-size:20px;
 }
 
-header {
-    max-width: 760px;
-    margin: 60px auto 20px;
-    padding: 0 24px;
+.wrapper{
+    max-width:600px;
+    margin:auto;
+    padding:50px 30px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 1rem;
-    letter-spacing: .12em;
-    font-weight: normal;
-    text-transform: uppercase;
+/* HEADER */
+
+header{
+    margin-bottom:60px;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid #999;
-    margin: 18px 0 40px;
+.logo{
+    font-family:"Roboto Slab",serif;
+    font-size:2.2rem;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom:8px;
 }
 
-main {
-    max-width: 760px;
-    margin: auto;
-    padding: 0 24px 80px;
+.tagline{
+    color:#999;
+    font-size:1rem;
 }
 
-article h2 {
-    font-size: 2.4rem;
-    font-weight: normal;
-    margin: 0 0 8px;
+nav{
+    margin-top:30px;
 }
 
-.date {
-    color: #666;
-    font-size: .9rem;
-    margin-bottom: 40px;
+nav a{
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin-right:25px;
+    font-size:.9rem;
+    letter-spacing:.05em;
 }
 
-p {
-    margin: 1.4em 0;
+nav a:hover{
+    text-decoration:underline;
 }
 
-a {
-    color: inherit;
-    text-decoration: underline;
+/* ARTICLE */
+
+article{
+    margin-bottom:80px;
 }
 
-footer {
-    max-width: 760px;
-    margin: 60px auto;
-    padding: 0 24px;
-    font-size: .9rem;
-    color: #666;
+.post-date{
+    color:#999;
+    font-size:.9rem;
+    margin-bottom:15px;
 }
+
+h1{
+    font-family:"Roboto Slab",serif;
+    font-weight:300;
+    font-size:3rem;
+    margin-bottom:25px;
+}
+
+.featured-image{
+    width:100%;
+    margin:35px 0;
+}
+
+.featured-image img{
+    width:100%;
+    display:block;
+}
+
+p{
+    margin-bottom:1.4em;
+}
+
+h2{
+    font-family:"Roboto Slab",serif;
+    font-weight:300;
+    margin:45px 0 15px;
+}
+
+blockquote{
+    border-left:3px solid #666;
+    padding-left:20px;
+    margin:30px 0;
+    color:#bbb;
+    font-style:italic;
+}
+
+/* FOOTER */
+
+footer{
+    border-top:1px solid #333;
+    padding-top:40px;
+    color:#888;
+    font-size:.9rem;
+}
+
+footer a{
+    color:white;
+}
+
 </style>
 </head>
 
 <body>
 
-<header>
-    <h1>SUKEBAN GAMES</h1>
-    <hr>
-</header>
+<div class="wrapper">
 
-<main>
+<header>
+
+<div class="logo">Sukeban Games</div>
+
+<div class="tagline">
+Making stylish indie games.
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">News</a>
+<a href="#">Games</a>
+<a href="#">About</a>
+</nav>
+
+</header>
 
 <article>
 
-<h2>AESOPS FABLES are not content complete whatsoever</h2>
+<div class="post-date">
+February 9, 2026
+</div>
 
-<div class="date">
-July 4, 2026
+<h1>.45 PARABELLUM BLOODHOUND is content complete</h1>
+
+<div class="featured-image">
+<img src="featured.jpg" alt="">
 </div>
 
 <p>
-Hello, GitHub Pages!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+placerat velit sed neque porta, vitae volutpat magna vulputate.
 </p>
 
 <p>
-This is where the article content would go. The layout intentionally keeps
-the content narrow and readable, matching the minimal blog style.
+Integer auctor, velit nec consequat tristique, metus nunc tincidunt
+augue, ut luctus est orci sed arcu.
+</p>
+
+<h2>Development Update</h2>
+
+<p>
+Donec suscipit tortor vel arcu bibendum, eget vulputate ipsum porta.
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+</p>
+
+<blockquote>
+Development is finally content complete, and we're entering polishing and testing.
+</blockquote>
+
+<p>
+Curabitur sed justo vitae libero gravida aliquet. Vivamus tincidunt
+metus sit amet eros vulputate tempus.
 </p>
 
 </article>
 
-</main>
-
 <footer>
-© 2026
+
+<p>
+© 2026 Sukeban Games
+</p>
+
 </footer>
+
+</div>
 
 </body>
 </html>
